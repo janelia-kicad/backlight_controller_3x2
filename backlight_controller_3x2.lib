@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF 0.1uF C 0 10 N Y 1 F N
 F0 "C" 0 100 40 H V L CNN
 F1 "0.1uF" 0 0 30 H V C CNN
-F2 "backlight_controller_5x3:SM1210" 38 -150 30 H I C CNN
+F2 "backlight_controller_3x2:SM1210" 38 -150 30 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "digikey" 100 200 60 H I C CNN "Vendor"
 F5 "399-13229-1-ND" 200 300 60 H I C CNN "PartNumber"
@@ -29,7 +29,7 @@ ENDDEF
 DEF 140 R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
 F1 "140" 7 1 40 V V C CNN
-F2 "backlight_controller_5x3:SM1210" -70 0 30 V I C CNN
+F2 "backlight_controller_3x2:SM1210" -70 0 30 V I C CNN
 F3 "" 0 0 30 H V C CNN
 F4 "digikey" 180 100 60 V I C CNN "Vendor"
 F5 "P140AACT-ND" 280 200 60 V I C CNN "PartNumber"
@@ -53,7 +53,7 @@ ENDDEF
 DEF 5.9k R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
 F1 "5.9k" 7 1 40 V V C CNN
-F2 "backlight_controller_5x3:SM1210" -70 0 30 V I C CNN
+F2 "backlight_controller_3x2:SM1210" -70 0 30 V I C CNN
 F3 "" 0 0 30 H V C CNN
 F4 "digikey" 180 100 60 V I C CNN "Vendor"
 F5 "P5.90KAACT-ND" 280 200 60 V I C CNN "PartNumber"
@@ -77,7 +77,7 @@ ENDDEF
 DEF BTS3256 HPS 0 40 Y Y 1 F N
 F0 "HPS" 250 -250 60 H V C CNN
 F1 "BTS3256" 250 250 60 H V C CNN
-F2 "backlight_controller_5x3:PG-TO252-5-11" 150 -350 60 H I C CNN
+F2 "backlight_controller_3x2:PG-TO252-5-11" 150 -350 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "digikey" 350 -150 60 H I C CNN "Vendor"
 F5 "BTS3256DAUMA1CT-ND" 450 -50 60 H I C CNN "PartNumber"
@@ -187,7 +187,7 @@ ENDDEF
 DEF LED_24V_RED L 0 40 Y N 1 F N
 F0 "L" 0 100 50 H V C CNN
 F1 "LED_24V_RED" 0 -100 50 H V C CNN
-F2 "backlight_controller_5x3:LED_555-3XXX_R" -100 0 60 H I C CNN
+F2 "backlight_controller_3x2:LED_555-3XXX_R" -100 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "digikey" 100 200 60 H I C CNN "Vendor"
 F5 "350-1723-ND" 200 300 60 H I C CNN "PartNumber"
@@ -216,7 +216,7 @@ ENDDEF
 DEF LED_5V_GRN L 0 40 Y N 1 F N
 F0 "L" 0 100 50 H V C CNN
 F1 "LED_5V_GRN" 0 -100 50 H V C CNN
-F2 "backlight_controller_5x3:LED_555-3XXX_G" -100 0 60 H I C CNN
+F2 "backlight_controller_3x2:LED_555-3XXX_G" -100 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "digikey" 100 200 60 H I C CNN "Vendor"
 F5 "350-1726-ND" 200 300 60 H I C CNN "PartNumber"
@@ -245,7 +245,7 @@ ENDDEF
 DEF M12-5_RCPT_F J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
 F1 "M12-5_RCPT_F" 0 -300 50 H V C CNN
-F2 "backlight_controller_5x3:M12-5_RCPT_F" 0 0 50 H I C CNN
+F2 "backlight_controller_3x2:M12-5_RCPT_F" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "digikey" 100 200 60 H I C CNN "Vendor"
 F5 "277-10962-ND" 200 100 60 H I C CNN "PartNumber"
@@ -277,7 +277,7 @@ ENDDEF
 DEF MINI_FIT_JR_02X03_M_RA P 0 1 Y N 1 F N
 F0 "P" 150 0 50 H V L CNN
 F1 "MINI_FIT_JR_02X03_M_RA" -200 0 50 V V C CNN
-F2 "backlight_controller_5x3:MINI-FIT-JR_02X03_M_RA" 0 -1200 60 H I C CNN
+F2 "backlight_controller_3x2:MINI-FIT-JR_02X03_M_RA" 0 -1200 60 H I C CNN
 F3 "" 0 -1200 60 H I C CNN
 F4 "digikey" 100 400 60 H I C CNN "Vendor"
 F5 "WM1353-ND" 200 500 60 H I C CNN "PartNumber"
@@ -358,7 +358,7 @@ ENDDEF
 DEF SN74ABT541BDWR U 0 40 Y Y 1 F N
 F0 "U" 200 650 60 H V C CNN
 F1 "SN74ABT541BDWR" -500 650 60 H V C CNN
-F2 "backlight_controller_5x3:SOIC_20" 100 550 60 H I C CNN
+F2 "backlight_controller_3x2:SOIC_20" 100 550 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "digikey" 100 -800 60 H I C CNN "Vendor"
 F5 "296-14668-1-ND" 200 -700 60 H I C CNN "PartNumber"
@@ -417,7 +417,7 @@ ENDDEF
 DEF ~diode_schottky_45V_10A D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
 F1 "diode_schottky_45V_10A" -280 -80 50 H I L CNN
-F2 "backlight_controller_5x3:CFP15" -150 -20 60 H I C CNN
+F2 "backlight_controller_3x2:CFP15" -150 -20 60 H I C CNN
 F3 "" -50 80 60 H I C CNN
 F4 "digikey" 50 180 60 H I C CNN "Vendor"
 F5 "568-11697-1-ND" 150 280 60 H I C CNN "PartNumber"
