@@ -1,0 +1,17 @@
+* Header                                                           :noexport:
+
+  #+MACRO: name backlight_controller_3x2
+  #+MACRO: version 1.0
+  #+MACRO: license Open-Source Hardware
+  #+MACRO: url https://github.com/janelia-kicad/backlight_controller_3x2
+  #+AUTHOR: Peter Polidoro
+  #+EMAIL: peterpolidoro@gmail.com
+
+* Description
+
+  This board controls one Smart Vision backlight with IR and visible channels
+  plus additional high and low power channel outputs.
+
+* Assembly Instructions
+
+  - Solder surface mount and through hole components onto the pcb.
