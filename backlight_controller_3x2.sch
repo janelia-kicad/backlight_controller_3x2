@@ -1,12 +1,12 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+EELAYER 28 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 15
 Title "backlight_controller_3x2"
 Date ""
-Rev "1.0"
+Rev "1.1"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
