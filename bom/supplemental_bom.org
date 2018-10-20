@@ -4,14 +4,18 @@
 |------+----------+------------+--------+-------------|
 |    1 |        1 | 1866-2122-ND | digikey | AC/DC DESKTOP ADAPTER 24V 280W   |
 |    2 |        1 | 1866-5006-ND | digikey | CORD IEC 320-C13 6FT BLACK       |
-|    3 |        2 | 277-8345-ND  | digikey | CABLE 5POS PLUG-R/A SOCKET 1.5M  |
-|    4 |        2 | 277-13325-ND | digikey | CABLE 5POS M12 PLUG-SOCKET 3M    |
-|    5 |        1 | 277-2667-ND  | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
-|    6 |        1 | 277-2668-ND  | digikey | CONN DSUB RCPT 9POS STR TERM BLK |
-|    7 |        2 | 277-2684-ND  | digikey | 9POS DSUB BACKSHELL              |
-|    8 |        2 | 1175-1148-ND | digikey | CBL D-SUB 9PIN MALE-9PIN FMAL 2M |
-|    9 |        4 | 475-3588-ND  | digikey | EMITTER IR 850NM 100MA           |
-|   10 |        1 | 289-1240-ND  | digikey | LED FLEX RIBBON 24V WHT          |
-|   11 |        4 | 1670-1026-ND | digikey | VIBRATION MOTOR CYL 5V WIRE      |
-|   12 |        4 | 381-2367-ND  | digikey | FAN AXIAL 40X10MM 24VDC WIRE     |
-|   13 |        1 | 277-2285-ND  | digikey | CONN FERRULE SLIDE BOX           |
+|    3 |        2 | 277-10308-ND | digikey | CONN INSERT SHELL PRESS FIT      |
+|    4 |        2 | 277-8345-ND  | digikey | CABLE 5POS PLUG-R/A SOCKET 1.5M  |
+|    5 |        2 | 277-13325-ND | digikey | CABLE 5POS M12 PLUG-SOCKET 3M    |
+|    6 |        1 | 277-2667-ND  | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
+|    7 |        1 | 277-2668-ND  | digikey | CONN DSUB RCPT 9POS STR TERM BLK |
+|    8 |        2 | 277-2684-ND  | digikey | 9POS DSUB BACKSHELL              |
+|    9 |        2 | 1688476-ND   | digikey | DSUB EMC INNER SLEEVE 9POS       |
+|   10 |        2 | 277-2767-ND  | digikey | DSUB CAP NUT W/SEAL              |
+|   11 |        2 | 277-2722-ND  | digikey | DSUB CAP NUT W/SEAL              |
+|   12 |        2 | 1175-1148-ND | digikey | CBL D-SUB 9PIN MALE-9PIN FMAL 2M |
+|   13 |        4 | 475-3588-ND  | digikey | EMITTER IR 850NM 100MA           |
+|   14 |        1 | 289-1240-ND  | digikey | LED FLEX RIBBON 24V WHT          |
+|   15 |        4 | 1670-1026-ND | digikey | VIBRATION MOTOR CYL 5V WIRE      |
+|   16 |        4 | 381-2367-ND  | digikey | FAN AXIAL 40X10MM 24VDC WIRE     |
+|   17 |        1 | 277-2285-ND  | digikey | CONN FERRULE SLIDE BOX           |
