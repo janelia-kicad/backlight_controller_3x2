@@ -1,9 +1,9 @@
-# Created 2018-09-14 Fri 10:47
+# Created 2018-10-23 Tue 13:00
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
 - Name :: backlight_controller_3x2
-- Version :: 1.0
+- Version :: 1.1
 - License :: Open-Source Hardware
 - URL :: https://github.com/janelia-kicad/backlight_controller_3x2
 - Author :: Peter Polidoro
@@ -20,45 +20,15 @@ plus additional high and low power channel outputs.
 
 [[file:./schematic/backlight_controller_3x2.pdf][./schematic/backlight_controller_3x2.pdf]]
 
-[[file:./schematic/images/schematic00.png]]
-
-[[file:./schematic/images/schematic01.png]]
-
-[[file:./schematic/images/schematic02.png]]
-
-[[file:./schematic/images/schematic03.png]]
-
-[[file:./schematic/images/schematic04.png]]
-
-[[file:./schematic/images/schematic05.png]]
-
-[[file:./schematic/images/schematic06.png]]
-
-[[file:./schematic/images/schematic07.png]]
-
-[[file:./schematic/images/schematic08.png]]
-
-[[file:./schematic/images/schematic09.png]]
-
-[[file:./schematic/images/schematic10.png]]
-
-[[file:./schematic/images/schematic11.png]]
-
-[[file:./schematic/images/schematic12.png]]
-
-[[file:./schematic/images/schematic13.png]]
-
-[[file:./schematic/images/schematic14.png]]
+[[file:./schematic/images/*.png]]
 
 * Gerbers
 
 Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 
-[[file:./gerbers/backlight_controller_3x2_v1.0.zip][./gerbers/backlight_controller_3x2_v1.0.zip]]
+[[file:./gerbers/backlight_controller_3x2_v1.1.zip][./gerbers/backlight_controller_3x2_v1.1.zip]]
 
-[[file:./gerbers/images/gerbers00.png]]
-
-[[file:./gerbers/images/gerbers01.png]]
+[[file:./gerbers/images/*.png]]
 
 * Bill of Materials
 
@@ -71,7 +41,7 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 |    3 | HPS1 HPS2 HPS3 HPS4             |        4 | BTS3256DAUMA1CT-ND | digikey | IC SWITCH SMART LOWSIDE TO252-5                                           |
 |    4 | J1                              |        1 | 1195-4005-1-ND     | digikey | CONN D-SUB RCPT 9POS SMD SOLDER                                           |
 |    5 | J2                              |        1 | 1195-4006-1-ND     | digikey | CONN D-SUB PLUG 9POS SMD SOLDER                                           |
-|    6 | J3 J4                           |        2 | 277-10962-ND       | digikey | CONN RCPT FMALE 5POS GOLD SOLDER                                          |
+|    6 | J3 J4                           |        2 | 277-10282-1-ND     | digikey | CONN FMALE INSERT 5POS SOLDER                                             |
 |    7 | L1                              |        1 | 350-1723-ND        | digikey | LED 2MM 24V VERTICAL RED PC MNT                                           |
 |    8 | L10 L11 L2 L3 L4 L5 L6 L7 L8 L9 |       10 | 350-1726-ND        | digikey | LED 2MM 5V VERTICAL GREEN PC MNT                                          |
 |    9 | MDB1                            |        2 | S1011E-16-ND       | digikey | 16 Position Header Through Hole Male Pins                                 |
@@ -79,6 +49,7 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 |   11 | R1 R2 R3 R4                     |        4 | P5.90KAACT-ND      | digikey | RES SMD 5.9k OHM 1% 1/2W 1210                                             |
 |   12 | R5 R6 R7 R8                     |        4 | P140AACT-ND        | digikey | RES SMD 140 OHM 1% 1/2W 1210                                              |
 |   13 | U1 U2                           |        2 | 296-14668-1-ND     | digikey | Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC |
+|   14 | U3 U4                           |        2 | NUD3124LT1GOSCT-ND | digikey | IC INDCT LOAD DRVR AUTO SOT23                                             |
 
 ** Supplemental Parts
 
@@ -86,17 +57,21 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 |------+----------+--------------+---------+----------------------------------|
 |    1 |        1 | 1866-2122-ND | digikey | AC/DC DESKTOP ADAPTER 24V 280W   |
 |    2 |        1 | 1866-5006-ND | digikey | CORD IEC 320-C13 6FT BLACK       |
-|    3 |        2 | 277-8345-ND  | digikey | CABLE 5POS PLUG-R/A SOCKET 1.5M  |
-|    4 |        2 | 277-13325-ND | digikey | CABLE 5POS M12 PLUG-SOCKET 3M    |
-|    5 |        1 | 277-2667-ND  | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
-|    6 |        1 | 277-2668-ND  | digikey | CONN DSUB RCPT 9POS STR TERM BLK |
-|    7 |        2 | 277-2684-ND  | digikey | 9POS DSUB BACKSHELL              |
-|    8 |        2 | 1175-1148-ND | digikey | CBL D-SUB 9PIN MALE-9PIN FMAL 2M |
-|    9 |        4 | 475-3588-ND  | digikey | EMITTER IR 850NM 100MA           |
-|   10 |        1 | 289-1240-ND  | digikey | LED FLEX RIBBON 24V WHT          |
-|   11 |        4 | 1670-1026-ND | digikey | VIBRATION MOTOR CYL 5V WIRE      |
-|   12 |        4 | 381-2367-ND  | digikey | FAN AXIAL 40X10MM 24VDC WIRE     |
-|   13 |        1 | 277-2285-ND  | digikey | CONN FERRULE SLIDE BOX           |
+|    3 |        2 | 277-10308-ND | digikey | CONN INSERT SHELL PRESS FIT      |
+|    4 |        2 | 277-8345-ND  | digikey | CABLE 5POS PLUG-R/A SOCKET 1.5M  |
+|    5 |        2 | 277-13325-ND | digikey | CABLE 5POS M12 PLUG-SOCKET 3M    |
+|    6 |        1 | 277-2667-ND  | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
+|    7 |        1 | 277-2668-ND  | digikey | CONN DSUB RCPT 9POS STR TERM BLK |
+|    8 |        2 | 277-2684-ND  | digikey | 9POS DSUB BACKSHELL              |
+|    9 |        2 | 1688476-ND   | digikey | DSUB EMC INNER SLEEVE 9POS       |
+|   10 |        2 | 277-2767-ND  | digikey | DSUB CAP NUT W/SEAL              |
+|   11 |        2 | 277-2722-ND  | digikey | DSUB CAP NUT W/SEAL              |
+|   12 |        2 | 1175-1148-ND | digikey | CBL D-SUB 9PIN MALE-9PIN FMAL 2M |
+|   13 |        4 | 475-3588-ND  | digikey | EMITTER IR 850NM 100MA           |
+|   14 |        1 | 289-1240-ND  | digikey | LED FLEX RIBBON 24V WHT          |
+|   15 |        4 | 1670-1026-ND | digikey | VIBRATION MOTOR CYL 5V WIRE      |
+|   16 |        4 | 381-2367-ND  | digikey | FAN AXIAL 40X10MM 24VDC WIRE     |
+|   17 |        1 | 277-2285-ND  | digikey | CONN FERRULE SLIDE BOX           |
 
 ** Vendor Parts Lists
 
