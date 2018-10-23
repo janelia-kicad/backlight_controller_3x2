@@ -10,10 +10,10 @@
 |    6 |        1 | 277-2667-ND  | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
 |    7 |        1 | 277-2668-ND  | digikey | CONN DSUB RCPT 9POS STR TERM BLK |
 |    8 |        2 | 277-2684-ND  | digikey | 9POS DSUB BACKSHELL              |
-|    9 |        2 | 1688476-ND   | digikey | DSUB EMC INNER SLEEVE 9POS       |
+|    9 |        2 | A33692-ND    | digikey | CONN D-SUB FEMALE SCREW LOCK     |
 |   10 |        2 | 277-2767-ND  | digikey | DSUB CAP NUT W/SEAL              |
 |   11 |        2 | 277-2722-ND  | digikey | DSUB CAP NUT W/SEAL              |
-|   12 |        2 | 1175-1148-ND | digikey | CBL D-SUB 9PIN MALE-9PIN FMAL 2M |
+|   12 |        2 | 1195-7211-ND | digikey | CABLE ASSY DB09 SHLD BEIGE 2M    |
 |   13 |        4 | 475-3588-ND  | digikey | EMITTER IR 850NM 100MA           |
 |   14 |        1 | 289-1240-ND  | digikey | LED FLEX RIBBON 24V WHT          |
 |   15 |        4 | 1670-1026-ND | digikey | VIBRATION MOTOR CYL 5V WIRE      |

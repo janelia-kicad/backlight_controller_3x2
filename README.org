@@ -1,4 +1,4 @@
-# Created 2018-10-23 Tue 13:00
+# Created 2018-10-23 Tue 13:55
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -20,7 +20,35 @@ plus additional high and low power channel outputs.
 
 [[file:./schematic/backlight_controller_3x2.pdf][./schematic/backlight_controller_3x2.pdf]]
 
-[[file:./schematic/images/*.png]]
+[[file:./schematic/images/schematic00.png]]
+
+[[file:./schematic/images/schematic01.png]]
+
+[[file:./schematic/images/schematic02.png]]
+
+[[file:./schematic/images/schematic03.png]]
+
+[[file:./schematic/images/schematic04.png]]
+
+[[file:./schematic/images/schematic05.png]]
+
+[[file:./schematic/images/schematic06.png]]
+
+[[file:./schematic/images/schematic07.png]]
+
+[[file:./schematic/images/schematic08.png]]
+
+[[file:./schematic/images/schematic09.png]]
+
+[[file:./schematic/images/schematic10.png]]
+
+[[file:./schematic/images/schematic11.png]]
+
+[[file:./schematic/images/schematic12.png]]
+
+[[file:./schematic/images/schematic13.png]]
+
+[[file:./schematic/images/schematic14.png]]
 
 * Gerbers
 
@@ -28,7 +56,9 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 
 [[file:./gerbers/backlight_controller_3x2_v1.1.zip][./gerbers/backlight_controller_3x2_v1.1.zip]]
 
-[[file:./gerbers/images/*.png]]
+[[file:./gerbers/images/gerbers00.png]]
+
+[[file:./gerbers/images/gerbers01.png]]
 
 * Bill of Materials
 
@@ -63,10 +93,10 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 |    6 |        1 | 277-2667-ND  | digikey | CONN DSUB PLUG 9POS STR TERM BLK |
 |    7 |        1 | 277-2668-ND  | digikey | CONN DSUB RCPT 9POS STR TERM BLK |
 |    8 |        2 | 277-2684-ND  | digikey | 9POS DSUB BACKSHELL              |
-|    9 |        2 | 1688476-ND   | digikey | DSUB EMC INNER SLEEVE 9POS       |
+|    9 |        2 | A33692-ND    | digikey | CONN D-SUB FEMALE SCREW LOCK     |
 |   10 |        2 | 277-2767-ND  | digikey | DSUB CAP NUT W/SEAL              |
 |   11 |        2 | 277-2722-ND  | digikey | DSUB CAP NUT W/SEAL              |
-|   12 |        2 | 1175-1148-ND | digikey | CBL D-SUB 9PIN MALE-9PIN FMAL 2M |
+|   12 |        2 | 1195-7211-ND | digikey | CABLE ASSY DB09 SHLD BEIGE 2M    |
 |   13 |        4 | 475-3588-ND  | digikey | EMITTER IR 850NM 100MA           |
 |   14 |        1 | 289-1240-ND  | digikey | LED FLEX RIBBON 24V WHT          |
 |   15 |        4 | 1670-1026-ND | digikey | VIBRATION MOTOR CYL 5V WIRE      |
