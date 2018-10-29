@@ -1,7 +1,7 @@
 * Supplemental Bill of Materials
 #+RESULTS: supplemental-parts
-| Item | Quantity | PartNumber | Vendor | Description |
-|------+----------+------------+--------+-------------|
-|    1 |        1 | 1866-2122-ND | digikey | AC/DC DESKTOP ADAPTER 24V 280W   |
-|    2 |        1 | 1866-5006-ND | digikey | CORD IEC 320-C13 6FT BLACK       |
-|    3 |        2 | 277-10308-ND | digikey | CONN INSERT SHELL PRESS FIT      |
+| Item | Quantity | PartNumber   | Vendor  | Description                    |
+|------+----------+--------------+---------+--------------------------------|
+|    1 |        1 | 1866-2122-ND | digikey | AC/DC DESKTOP ADAPTER 24V 280W |
+|    2 |        1 | 1866-5006-ND | digikey | CORD IEC 320-C13 6FT BLACK     |
+|    3 |        2 | 277-10308-ND | digikey | CONN INSERT SHELL PRESS FIT    |

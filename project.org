@@ -1,7 +1,7 @@
 * Header                                                           :noexport:
 
   #+MACRO: name backlight_controller_3x2
-  #+MACRO: version 1.1
+  #+MACRO: version 1.2
   #+MACRO: license Open-Source Hardware
   #+MACRO: url https://github.com/janelia-kicad/backlight_controller_3x2
   #+AUTHOR: Peter Polidoro

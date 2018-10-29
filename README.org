@@ -1,9 +1,9 @@
-# Created 2018-10-26 Fri 10:01
+# Created 2018-10-29 Mon 13:45
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
 - Name :: backlight_controller_3x2
-- Version :: 1.1
+- Version :: 1.2
 - License :: Open-Source Hardware
 - URL :: https://github.com/janelia-kicad/backlight_controller_3x2
 - Author :: Peter Polidoro
@@ -54,7 +54,7 @@ plus additional high and low power channel outputs.
 
 Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 
-[[file:./gerbers/backlight_controller_3x2_v1.1.zip][./gerbers/backlight_controller_3x2_v1.1.zip]]
+[[file:./gerbers/backlight_controller_3x2_v1.2.zip][./gerbers/backlight_controller_3x2_v1.2.zip]]
 
 [[file:./gerbers/images/gerbers00.png]]
 
@@ -77,7 +77,7 @@ Send gerbers zip file to your favorite PCB manufacturer for fabrication.
 |    9 | MDB1                            |        2 | S1011E-16-ND       | digikey | 16 Position Header Through Hole Male Pins                                 |
 |   10 | P1                              |        1 | WM1353-ND          | digikey | CONN HEADER 6POS 4.2MM R/A TIN                                            |
 |   11 | R1 R2 R3 R4                     |        4 | P5.90KAACT-ND      | digikey | RES SMD 5.9k OHM 1% 1/2W 1210                                             |
-|   12 | R5 R6 R7 R8                     |        4 | P140AACT-ND        | digikey | RES SMD 140 OHM 1% 1/2W 1210                                              |
+|   12 | R5 R6 R7 R8                     |        4 | P75.0CCT-ND        | digikey | RES SMD 75 OHM 1% 1/8W 0805                                               |
 |   13 | U1 U2                           |        2 | 296-14668-1-ND     | digikey | Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC |
 |   14 | U3 U4                           |        2 | NUD3124LT1GOSCT-ND | digikey | IC INDCT LOAD DRVR AUTO SOT23                                             |
 

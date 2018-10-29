@@ -1,12 +1,12 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,6.0.0-rc1-unknown-576a0af~66~ubuntu18.04.1*
-G04 #@! TF.CreationDate,2018-10-20T17:19:33-04:00*
-G04 #@! TF.ProjectId,backlight_controller_3x2,6261636B6C696768745F636F6E74726F,1.1*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,6.0.0-rc1-unknown-4b44cbe~66~ubuntu18.04.1*
+G04 #@! TF.CreationDate,2018-10-29T13:39:10-04:00*
+G04 #@! TF.ProjectId,backlight_controller_3x2,6261636B6C696768745F636F6E74726F,1.2*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 6.0.0-rc1-unknown-576a0af~66~ubuntu18.04.1) date Sat 20 Oct 2018 05:19:33 PM EDT*
+G04 Created by KiCad (PCBNEW 6.0.0-rc1-unknown-4b44cbe~66~ubuntu18.04.1) date Mon 29 Oct 2018 01:39:10 PM EDT*
 %MOMM*%
 %LPD*%
 G01*
