@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:backlight_controller_3x2-cache
-EELAYER 28 0
+EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 15
 Title "backlight_controller_3x2"
 Date ""
-Rev "1.1"
+Rev "1.2"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
@@ -74,18 +73,12 @@ NoConn ~ 1400 1000
 NoConn ~ 1400 1100
 NoConn ~ 1400 1700
 NoConn ~ 1400 1800
-NoConn ~ 1400 1900
-NoConn ~ 1400 2000
 NoConn ~ 1400 2100
 NoConn ~ 1400 2200
 NoConn ~ 1400 2300
 NoConn ~ 3900 800 
 NoConn ~ 3900 1000
 NoConn ~ 3900 1100
-NoConn ~ 3900 1200
-NoConn ~ 3900 1300
-NoConn ~ 3900 1400
-NoConn ~ 3900 1500
 NoConn ~ 3900 2200
 NoConn ~ 3900 2300
 $Comp
@@ -175,29 +168,17 @@ Text Label 1350 1500 2    60   ~ 0
 CHANNEL_2
 Text Label 1350 1600 2    60   ~ 0
 CHANNEL_3
-Wire Wire Line
-	3900 2100 3950 2100
-Wire Wire Line
-	3900 2000 3950 2000
-Wire Wire Line
-	3900 1900 3950 1900
-Wire Wire Line
-	3900 1800 3950 1800
-Wire Wire Line
-	3900 1700 3950 1700
-Wire Wire Line
-	3900 1600 3950 1600
-Text Label 3950 2100 0    60   ~ 0
+Text Label 1350 1900 2    60   ~ 0
 CHANNEL_4
-Text Label 3950 2000 0    60   ~ 0
+Text Label 1350 2000 2    60   ~ 0
 CHANNEL_5
-Text Label 3950 1900 0    60   ~ 0
+Text Label 3950 1500 0    60   ~ 0
 CHANNEL_6
-Text Label 3950 1800 0    60   ~ 0
+Text Label 3950 1400 0    60   ~ 0
 CHANNEL_7
-Text Label 3950 1700 0    60   ~ 0
+Text Label 3950 1300 0    60   ~ 0
 CHANNEL_8
-Text Label 3950 1600 0    60   ~ 0
+Text Label 3950 1200 0    60   ~ 0
 CHANNEL_9
 Wire Wire Line
 	7400 1400 7350 1400
@@ -243,4 +224,22 @@ Text Label 7350 2300 2    60   ~ 0
 CHANNEL_8
 Text Label 7350 2400 2    60   ~ 0
 CHANNEL_9
+NoConn ~ 3900 2100
+NoConn ~ 3900 2000
+NoConn ~ 3900 1900
+NoConn ~ 3900 1800
+NoConn ~ 3900 1700
+NoConn ~ 3900 1600
+Wire Wire Line
+	1400 1900 1350 1900
+Wire Wire Line
+	1400 2000 1350 2000
+Wire Wire Line
+	3900 1500 3950 1500
+Wire Wire Line
+	3900 1400 3950 1400
+Wire Wire Line
+	3900 1300 3950 1300
+Wire Wire Line
+	3900 1200 3950 1200
 $EndSCHEMATC
