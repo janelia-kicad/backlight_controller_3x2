@@ -15,12 +15,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4750 2350 1250 300 
+S 4750 2350 1250 300
 U 5B99F372
-F0 "high_power_output_0" 60
-F1 "high_power_output.sch" 60
-F2 "CHANNEL" I L 4750 2500 60 
-F3 "OUTPUT" I R 6000 2500 60 
+F0 "high_voltage_output_0" 60
+F1 "high_voltage_output.sch" 60
+F2 "CHANNEL" I L 4750 2500 60
+F3 "OUTPUT" I R 6000 2500 60
 $EndSheet
 Wire Wire Line
 	4750 2500 4700 2500
@@ -29,12 +29,12 @@ Wire Wire Line
 Text Label 6050 2500 0    60   ~ 0
 OUTPUT_0
 $Sheet
-S 4750 3000 1250 300 
+S 4750 3000 1250 300
 U 5B99F37A
-F0 "high_power_output_1" 60
-F1 "high_power_output.sch" 60
-F2 "CHANNEL" I L 4750 3150 60 
-F3 "OUTPUT" I R 6000 3150 60 
+F0 "high_voltage_output_1" 60
+F1 "high_voltage_output.sch" 60
+F2 "CHANNEL" I L 4750 3150 60
+F3 "OUTPUT" I R 6000 3150 60
 $EndSheet
 Wire Wire Line
 	4750 3150 4700 3150
@@ -43,12 +43,12 @@ Wire Wire Line
 Text Label 6050 3150 0    60   ~ 0
 OUTPUT_1
 $Sheet
-S 4750 3600 1250 300 
+S 4750 3600 1250 300
 U 5B99F382
-F0 "high_power_output_2" 60
-F1 "high_power_output.sch" 60
-F2 "CHANNEL" I L 4750 3750 60 
-F3 "OUTPUT" I R 6000 3750 60 
+F0 "high_voltage_output_2" 60
+F1 "high_voltage_output.sch" 60
+F2 "CHANNEL" I L 4750 3750 60
+F3 "OUTPUT" I R 6000 3750 60
 $EndSheet
 Wire Wire Line
 	4750 3750 4700 3750
@@ -57,12 +57,12 @@ Wire Wire Line
 Text Label 6050 3750 0    60   ~ 0
 OUTPUT_2
 $Sheet
-S 4750 4250 1250 300 
+S 4750 4250 1250 300
 U 5B99F38A
-F0 "high_power_output_3" 60
-F1 "high_power_output.sch" 60
-F2 "CHANNEL" I L 4750 4400 60 
-F3 "OUTPUT" I R 6000 4400 60 
+F0 "high_voltage_output_3" 60
+F1 "high_voltage_output.sch" 60
+F2 "CHANNEL" I L 4750 4400 60
+F3 "OUTPUT" I R 6000 4400 60
 $EndSheet
 Wire Wire Line
 	4750 4400 4700 4400
@@ -74,15 +74,15 @@ $Comp
 L power:VAA #PWR?
 U 1 1 5B99F394
 P 7750 3050
-AR Path="/5B99F394" Ref="#PWR?"  Part="1" 
-AR Path="/5B9970BA/5B99F394" Ref="#PWR?"  Part="1" 
-AR Path="/5B99EA03/5B9A0F78/5B99F394" Ref="#PWR021"  Part="1" 
+AR Path="/5B99F394" Ref="#PWR?"  Part="1"
+AR Path="/5B9970BA/5B99F394" Ref="#PWR?"  Part="1"
+AR Path="/5B99EA03/5B9A0F78/5B99F394" Ref="#PWR021"  Part="1"
 F 0 "#PWR021" H 7750 2900 50  0001 C CNN
 F 1 "VAA" H 7750 3200 50  0000 C CNN
 F 2 "" H 7750 3050 50  0001 C CNN
 F 3 "" H 7750 3050 50  0001 C CNN
 	1    7750 3050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7800 3900 7750 3900
@@ -144,6 +144,6 @@ F 4 "digikey" H 8200 4150 60  0001 C CNN "Vendor"
 F 5 "1195-4005-1-ND" H 8300 4250 60  0001 C CNN "PartNumber"
 F 6 "CONN D-SUB RCPT 9POS SMD SOLDER" H 8400 4350 60  0001 C CNN "Description"
 	1    8100 3500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $EndSCHEMATC
