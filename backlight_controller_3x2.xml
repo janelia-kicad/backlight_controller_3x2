@@ -2,13 +2,13 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/backlight_controller_3x2/backlight_controller_3x2.sch</source>
-    <date>Sat 20 Oct 2018 05:19:26 PM EDT</date>
-    <tool>Eeschema 6.0.0-rc1-unknown-576a0af~66~ubuntu18.04.1</tool>
+    <date>Mon 29 Oct 2018 12:39:26 PM EDT</date>
+    <tool>Eeschema 6.0.0-rc1-unknown-4b44cbe~66~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>backlight_controller_3x2</title>
         <company>Janelia</company>
-        <rev>1.1</rev>
+        <rev>1.2</rev>
         <date/>
         <source>backlight_controller_3x2.sch</source>
         <comment number="1" value=""/>
@@ -527,16 +527,16 @@
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R5">
-      <value>140</value>
-      <footprint>backlight_controller_3x2:SM1210</footprint>
+      <value>75</value>
+      <footprint>footprints:SM0805</footprint>
       <fields>
-        <field name="Description">RES SMD 140 OHM 1% 1/2W 1210</field>
-        <field name="PartNumber">P140AACT-ND</field>
+        <field name="Description">RES SMD 75 OHM 1% 1/8W 0805</field>
+        <field name="PartNumber">P75.0CCT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="backlight_controller_3x2" part="140" description=""/>
+      <libsource lib="backlight_controller_3x2" part="75" description=""/>
       <sheetpath names="/backlight_3x2/low_voltage_outputs/low_voltage_output_0/" tstamps="/5B99EA03/5B9A0F86/5B9B87E5/"/>
-      <tstamp>5B989FD5</tstamp>
+      <tstamp>5BD805E3</tstamp>
     </comp>
     <comp ref="L7">
       <value>LED_5V_GRN</value>
@@ -551,16 +551,16 @@
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R6">
-      <value>140</value>
-      <footprint>backlight_controller_3x2:SM1210</footprint>
+      <value>75</value>
+      <footprint>footprints:SM0805</footprint>
       <fields>
-        <field name="Description">RES SMD 140 OHM 1% 1/2W 1210</field>
-        <field name="PartNumber">P140AACT-ND</field>
+        <field name="Description">RES SMD 75 OHM 1% 1/8W 0805</field>
+        <field name="PartNumber">P75.0CCT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="backlight_controller_3x2" part="140" description=""/>
+      <libsource lib="backlight_controller_3x2" part="75" description=""/>
       <sheetpath names="/backlight_3x2/low_voltage_outputs/low_voltage_output_1/" tstamps="/5B99EA03/5B9A0F86/5B9B87ED/"/>
-      <tstamp>5B989FD5</tstamp>
+      <tstamp>5BD805E3</tstamp>
     </comp>
     <comp ref="L8">
       <value>LED_5V_GRN</value>
@@ -575,16 +575,16 @@
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R7">
-      <value>140</value>
-      <footprint>backlight_controller_3x2:SM1210</footprint>
+      <value>75</value>
+      <footprint>footprints:SM0805</footprint>
       <fields>
-        <field name="Description">RES SMD 140 OHM 1% 1/2W 1210</field>
-        <field name="PartNumber">P140AACT-ND</field>
+        <field name="Description">RES SMD 75 OHM 1% 1/8W 0805</field>
+        <field name="PartNumber">P75.0CCT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="backlight_controller_3x2" part="140" description=""/>
+      <libsource lib="backlight_controller_3x2" part="75" description=""/>
       <sheetpath names="/backlight_3x2/low_voltage_outputs/low_voltage_output_2/" tstamps="/5B99EA03/5B9A0F86/5B9B87F5/"/>
-      <tstamp>5B989FD5</tstamp>
+      <tstamp>5BD805E3</tstamp>
     </comp>
     <comp ref="L9">
       <value>LED_5V_GRN</value>
@@ -599,16 +599,16 @@
       <tstamp>5B8B5179</tstamp>
     </comp>
     <comp ref="R8">
-      <value>140</value>
-      <footprint>backlight_controller_3x2:SM1210</footprint>
+      <value>75</value>
+      <footprint>footprints:SM0805</footprint>
       <fields>
-        <field name="Description">RES SMD 140 OHM 1% 1/2W 1210</field>
-        <field name="PartNumber">P140AACT-ND</field>
+        <field name="Description">RES SMD 75 OHM 1% 1/8W 0805</field>
+        <field name="PartNumber">P75.0CCT-ND</field>
         <field name="Vendor">digikey</field>
       </fields>
-      <libsource lib="backlight_controller_3x2" part="140" description=""/>
+      <libsource lib="backlight_controller_3x2" part="75" description=""/>
       <sheetpath names="/backlight_3x2/low_voltage_outputs/low_voltage_output_3/" tstamps="/5B99EA03/5B9A0F86/5B9B87FD/"/>
-      <tstamp>5B989FD5</tstamp>
+      <tstamp>5BD805E3</tstamp>
     </comp>
     <comp ref="L10">
       <value>LED_5V_GRN</value>
@@ -705,27 +705,6 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="backlight_controller_3x2" part="140">
-      <footprints>
-        <fp>R?</fp>
-        <fp>SM0603</fp>
-        <fp>SM0805</fp>
-        <fp>R?-*</fp>
-        <fp>SM1206</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">140</field>
-        <field name="Footprint">backlight_controller_3x2:SM1210</field>
-        <field name="Vendor">digikey</field>
-        <field name="PartNumber">P140AACT-ND</field>
-        <field name="Description">RES SMD 140 OHM 1% 1/2W 1210</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="backlight_controller_3x2" part="5.9k">
       <footprints>
         <fp>R?</fp>
@@ -741,6 +720,27 @@
         <field name="Vendor">digikey</field>
         <field name="PartNumber">P5.90KAACT-ND</field>
         <field name="Description">RES SMD 5.9k OHM 1% 1/2W 1210</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="backlight_controller_3x2" part="75">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">75</field>
+        <field name="Footprint">footprints:SM0805</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">P75.0CCT-ND</field>
+        <field name="Description">RES SMD 75 OHM 1% 1/8W 0805</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -1027,95 +1027,99 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/~ENABLE">
-      <node ref="U2" pin="1"/>
-      <node ref="MDB1" pin="2"/>
-      <node ref="U1" pin="1"/>
+    <net code="1" name="/CHANNEL_5">
+      <node ref="MDB1" pin="10"/>
+      <node ref="U1" pin="7"/>
     </net>
-    <net code="2" name="/CHANNEL_0">
-      <node ref="U1" pin="2"/>
-      <node ref="MDB1" pin="3"/>
-    </net>
-    <net code="3" name="/CHANNEL_1">
-      <node ref="U1" pin="3"/>
-      <node ref="MDB1" pin="4"/>
-    </net>
-    <net code="4" name="/CHANNEL_2">
-      <node ref="U1" pin="4"/>
+    <net code="2" name="/CHANNEL_2">
       <node ref="MDB1" pin="5"/>
+      <node ref="U1" pin="4"/>
     </net>
-    <net code="5" name="/CHANNEL_3">
+    <net code="3" name="/CHANNEL_3">
       <node ref="MDB1" pin="6"/>
       <node ref="U1" pin="5"/>
     </net>
-    <net code="6" name="Net-(MDB1-PadDAC)">
-      <node ref="MDB1" pin="DAC"/>
+    <net code="4" name="/~ENABLE">
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="MDB1" pin="2"/>
     </net>
-    <net code="7" name="Net-(MDB1-PadAREF)">
-      <node ref="MDB1" pin="AREF"/>
+    <net code="5" name="/CHANNEL_0">
+      <node ref="U1" pin="2"/>
+      <node ref="MDB1" pin="3"/>
     </net>
-    <net code="8" name="Net-(MDB1-PadAGND)">
-      <node ref="MDB1" pin="AGND"/>
+    <net code="6" name="/CHANNEL_1">
+      <node ref="U1" pin="3"/>
+      <node ref="MDB1" pin="4"/>
     </net>
-    <net code="9" name="Net-(MDB1-Pad9)">
-      <node ref="MDB1" pin="9"/>
-    </net>
-    <net code="10" name="Net-(MDB1-Pad3V3)">
-      <node ref="MDB1" pin="3V3"/>
-    </net>
-    <net code="11" name="Net-(MDB1-Pad30)">
-      <node ref="MDB1" pin="30"/>
-    </net>
-    <net code="12" name="Net-(MDB1-Pad29)">
-      <node ref="MDB1" pin="29"/>
-    </net>
-    <net code="13" name="Net-(MDB1-Pad28)">
-      <node ref="MDB1" pin="28"/>
-    </net>
-    <net code="14" name="Net-(MDB1-Pad25)">
-      <node ref="MDB1" pin="25"/>
-    </net>
-    <net code="15" name="Net-(MDB1-Pad24)">
-      <node ref="MDB1" pin="24"/>
-    </net>
-    <net code="16" name="Net-(MDB1-Pad23)">
-      <node ref="MDB1" pin="23"/>
-    </net>
-    <net code="17" name="Net-(MDB1-Pad22)">
-      <node ref="MDB1" pin="22"/>
-    </net>
-    <net code="18" name="/CHANNEL_6">
+    <net code="7" name="/CHANNEL_6">
       <node ref="U1" pin="8"/>
-      <node ref="MDB1" pin="16"/>
-    </net>
-    <net code="19" name="/CHANNEL_9">
-      <node ref="U2" pin="3"/>
-      <node ref="MDB1" pin="19"/>
-    </net>
-    <net code="20" name="/CHANNEL_8">
-      <node ref="MDB1" pin="18"/>
-      <node ref="U2" pin="2"/>
-    </net>
-    <net code="21" name="/CHANNEL_7">
-      <node ref="U1" pin="9"/>
-      <node ref="MDB1" pin="17"/>
-    </net>
-    <net code="22" name="/CHANNEL_5">
-      <node ref="U1" pin="7"/>
-      <node ref="MDB1" pin="15"/>
-    </net>
-    <net code="23" name="/CHANNEL_4">
-      <node ref="U1" pin="6"/>
-      <node ref="MDB1" pin="14"/>
-    </net>
-    <net code="24" name="Net-(MDB1-Pad13)">
-      <node ref="MDB1" pin="13"/>
-    </net>
-    <net code="25" name="Net-(MDB1-Pad20)">
       <node ref="MDB1" pin="20"/>
     </net>
-    <net code="26" name="Net-(MDB1-Pad21)">
+    <net code="8" name="/CHANNEL_7">
+      <node ref="U1" pin="9"/>
       <node ref="MDB1" pin="21"/>
+    </net>
+    <net code="9" name="/CHANNEL_8">
+      <node ref="U2" pin="2"/>
+      <node ref="MDB1" pin="22"/>
+    </net>
+    <net code="10" name="/CHANNEL_9">
+      <node ref="U2" pin="3"/>
+      <node ref="MDB1" pin="23"/>
+    </net>
+    <net code="11" name="Net-(MDB1-PadDAC)">
+      <node ref="MDB1" pin="DAC"/>
+    </net>
+    <net code="12" name="Net-(MDB1-PadAREF)">
+      <node ref="MDB1" pin="AREF"/>
+    </net>
+    <net code="13" name="Net-(MDB1-PadAGND)">
+      <node ref="MDB1" pin="AGND"/>
+    </net>
+    <net code="14" name="/CHANNEL_4">
+      <node ref="U1" pin="6"/>
+      <node ref="MDB1" pin="9"/>
+    </net>
+    <net code="15" name="Net-(MDB1-Pad3V3)">
+      <node ref="MDB1" pin="3V3"/>
+    </net>
+    <net code="16" name="Net-(MDB1-Pad30)">
+      <node ref="MDB1" pin="30"/>
+    </net>
+    <net code="17" name="Net-(MDB1-Pad19)">
+      <node ref="MDB1" pin="19"/>
+    </net>
+    <net code="18" name="Net-(MDB1-Pad18)">
+      <node ref="MDB1" pin="18"/>
+    </net>
+    <net code="19" name="Net-(MDB1-Pad17)">
+      <node ref="MDB1" pin="17"/>
+    </net>
+    <net code="20" name="Net-(MDB1-Pad16)">
+      <node ref="MDB1" pin="16"/>
+    </net>
+    <net code="21" name="Net-(MDB1-Pad15)">
+      <node ref="MDB1" pin="15"/>
+    </net>
+    <net code="22" name="Net-(MDB1-Pad14)">
+      <node ref="MDB1" pin="14"/>
+    </net>
+    <net code="23" name="Net-(MDB1-Pad29)">
+      <node ref="MDB1" pin="29"/>
+    </net>
+    <net code="24" name="VEE">
+      <node ref="U2" pin="20"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="C1" pin="1"/>
+      <node ref="MDB1" pin="VEE"/>
+    </net>
+    <net code="25" name="Net-(MDB1-Pad13)">
+      <node ref="MDB1" pin="13"/>
+    </net>
+    <net code="26" name="Net-(MDB1-Pad28)">
+      <node ref="MDB1" pin="28"/>
     </net>
     <net code="27" name="Net-(MDB1-Pad12)">
       <node ref="MDB1" pin="12"/>
@@ -1123,78 +1127,74 @@
     <net code="28" name="Net-(MDB1-Pad11)">
       <node ref="MDB1" pin="11"/>
     </net>
-    <net code="29" name="Net-(MDB1-Pad10)">
-      <node ref="MDB1" pin="10"/>
+    <net code="29" name="Net-(MDB1-Pad25)">
+      <node ref="MDB1" pin="25"/>
     </net>
-    <net code="30" name="GND">
-      <node ref="P1" pin="5"/>
+    <net code="30" name="Net-(MDB1-Pad24)">
+      <node ref="MDB1" pin="24"/>
+    </net>
+    <net code="31" name="GND">
+      <node ref="C1" pin="2"/>
       <node ref="P1" pin="4"/>
+      <node ref="P1" pin="5"/>
       <node ref="P1" pin="6"/>
       <node ref="L9" pin="2"/>
-      <node ref="U1" pin="10"/>
-      <node ref="U1" pin="19"/>
-      <node ref="L2" pin="2"/>
+      <node ref="J3" pin="3"/>
       <node ref="L10" pin="2"/>
       <node ref="C3" pin="2"/>
-      <node ref="J3" pin="3"/>
+      <node ref="L2" pin="2"/>
       <node ref="U3" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="L4" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="HPS3" pin="5"/>
-      <node ref="C4" pin="2"/>
-      <node ref="L3" pin="2"/>
-      <node ref="L5" pin="2"/>
-      <node ref="HPS2" pin="5"/>
-      <node ref="L7" pin="2"/>
-      <node ref="L8" pin="2"/>
       <node ref="L6" pin="2"/>
       <node ref="HPS4" pin="5"/>
       <node ref="C6" pin="2"/>
+      <node ref="L5" pin="2"/>
+      <node ref="L4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="HPS3" pin="5"/>
+      <node ref="L8" pin="2"/>
+      <node ref="HPS2" pin="5"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="L7" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="5"/>
       <node ref="J2" pin="5"/>
+      <node ref="J2" pin="7"/>
+      <node ref="U2" pin="19"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="9"/>
+      <node ref="C2" pin="2"/>
       <node ref="U2" pin="10"/>
       <node ref="U2" pin="6"/>
       <node ref="J2" pin="1"/>
       <node ref="L11" pin="2"/>
+      <node ref="U1" pin="19"/>
       <node ref="J2" pin="3"/>
-      <node ref="U2" pin="19"/>
-      <node ref="U2" pin="4"/>
-      <node ref="U2" pin="5"/>
-      <node ref="J2" pin="7"/>
+      <node ref="U4" pin="2"/>
       <node ref="MDB1" pin="GND"/>
-      <node ref="U2" pin="9"/>
-      <node ref="U2" pin="8"/>
-      <node ref="U2" pin="7"/>
-      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="10"/>
       <node ref="J2" pin="9"/>
       <node ref="L1" pin="2"/>
       <node ref="HPS1" pin="5"/>
       <node ref="J4" pin="3"/>
-      <node ref="U4" pin="2"/>
     </net>
-    <net code="31" name="VDD">
-      <node ref="HPS3" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="HPS2" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="HPS1" pin="1"/>
-      <node ref="HPS4" pin="1"/>
+    <net code="32" name="VDD">
       <node ref="MDB1" pin="VDD"/>
       <node ref="C3" pin="1"/>
-    </net>
-    <net code="32" name="VEE">
-      <node ref="U2" pin="20"/>
-      <node ref="C1" pin="1"/>
-      <node ref="MDB1" pin="VEE"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U1" pin="20"/>
+      <node ref="HPS2" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="HPS1" pin="1"/>
+      <node ref="HPS4" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="HPS3" pin="1"/>
     </net>
     <net code="33" name="/backlight_3x2/C_8">
-      <node ref="U2" pin="18"/>
-      <node ref="L10" pin="1"/>
       <node ref="U3" pin="1"/>
+      <node ref="L10" pin="1"/>
+      <node ref="U2" pin="18"/>
     </net>
     <net code="34" name="/backlight_3x2/C_9">
       <node ref="L11" pin="1"/>
