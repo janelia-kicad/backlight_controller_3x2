@@ -1,4 +1,4 @@
-update=Mon 29 Oct 2018 12:46:04 PM EDT
+update=Fri 02 Nov 2018 02:49:47 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -8,17 +8,6 @@ NetIExt=net
 EquName1=devcms
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=schematic/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
@@ -124,3 +113,13 @@ uViaDrill=0.127
 dPairWidth=0.254
 dPairGap=0.254
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=schematic/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
