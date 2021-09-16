@@ -21,7 +21,7 @@
 -   **License:** Open-Source Hardware
 -   **URL:** <https://github.com/janelia-kicad/backlight_controller_3x2>
 -   **Author:** Peter Polidoro
--   **Email:** peterpolidoro@gmail.com
+-   **Email:** peter@polidoro.io
 
 
 <a id="org6dcabe7"></a>
