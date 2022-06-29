@@ -82,7 +82,7 @@ C_8
 Text Label 6550 4600 2    60   ~ 0
 C_9
 $Comp
-L power:VAA #PWR?
+L user_power:VAA #PWR?
 U 1 1 5B9A4096
 P 2550 6050
 AR Path="/5B9A4096" Ref="#PWR?"  Part="1" 
@@ -95,7 +95,7 @@ F 3 "" H 2550 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG?
+L user_power:PWR_FLAG #FLG?
 U 1 1 5B9A409C
 P 2450 5900
 AR Path="/5B9A409C" Ref="#FLG?"  Part="1" 
@@ -108,7 +108,7 @@ F 3 "~" H 2450 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5B9A40A2
 P 2550 6650
 AR Path="/5B9A40A2" Ref="#PWR?"  Part="1" 
@@ -137,7 +137,7 @@ F 6 "Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5B9A40B2
 P 2900 2900
 AR Path="/5B9A40B2" Ref="#PWR?"  Part="1" 
@@ -156,7 +156,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 2750 2900 2750
 $Comp
-L power:VEE #PWR?
+L user_power:VEE #PWR?
 U 1 1 5B9A40BC
 P 3300 1550
 AR Path="/5B9A40BC" Ref="#PWR?"  Part="1" 
@@ -201,7 +201,7 @@ C_2
 Text Label 3750 2250 0    60   ~ 0
 C_3
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5B9A40DA
 P 3300 3050
 AR Path="/5B9A40DA" Ref="#PWR?"  Part="1" 
@@ -234,7 +234,7 @@ F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 2350 2700 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VEE #PWR?
+L user_power:VEE #PWR?
 U 1 1 5B9A40EC
 P 2050 2050
 AR Path="/5B9A40EC" Ref="#PWR?"  Part="1" 
@@ -247,7 +247,7 @@ F 3 "" H -2850 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5B9A40F2
 P 2050 2550
 AR Path="/5B9A40F2" Ref="#PWR?"  Part="1" 
@@ -325,7 +325,7 @@ F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 3550 6430 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:VAA #PWR?
+L user_power:VAA #PWR?
 U 1 1 5B9A411E
 P 3150 6000
 AR Path="/5B9A411E" Ref="#PWR?"  Part="1" 
@@ -338,7 +338,7 @@ F 3 "" H 3150 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
+L user_power:VDD #PWR?
 U 1 1 5B9A4124
 P 3450 6000
 AR Path="/5B9A4124" Ref="#PWR?"  Part="1" 
@@ -375,7 +375,7 @@ F 6 "Buffer Non-Inverting 1 Element 8 Bit per Element Push-Pull Output 20-SOIC" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5B9A4138
 P 2900 4900
 AR Path="/5B9A4138" Ref="#PWR?"  Part="1" 
@@ -394,7 +394,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 4750 2900 4750
 $Comp
-L power:VEE #PWR?
+L user_power:VEE #PWR?
 U 1 1 5B9A4142
 P 3300 3550
 AR Path="/5B9A4142" Ref="#PWR?"  Part="1" 
@@ -419,7 +419,7 @@ C_8
 Text Label 3750 4050 0    60   ~ 0
 C_9
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5B9A415E
 P 3300 5050
 AR Path="/5B9A415E" Ref="#PWR?"  Part="1" 
@@ -452,7 +452,7 @@ F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 2350 4700 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VEE #PWR?
+L user_power:VEE #PWR?
 U 1 1 5B9A4170
 P 2050 4050
 AR Path="/5B9A4170" Ref="#PWR?"  Part="1" 
@@ -465,7 +465,7 @@ F 3 "" H -2850 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5B9A4176
 P 2050 4550
 AR Path="/5B9A4176" Ref="#PWR?"  Part="1" 
@@ -498,7 +498,7 @@ F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 4250 6700 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VAA #PWR?
+L user_power:VAA #PWR?
 U 1 1 5B9A418E
 P 3950 6050
 AR Path="/5B9A418E" Ref="#PWR?"  Part="1" 
@@ -511,7 +511,7 @@ F 3 "" H 3950 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5B9A4194
 P 3950 6550
 AR Path="/5B9A4194" Ref="#PWR?"  Part="1" 
@@ -574,7 +574,7 @@ NoConn ~ 3650 4450
 NoConn ~ 3650 4550
 NoConn ~ 3650 4650
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5B9B5857
 P 2400 4700
 AR Path="/5B9B5857" Ref="#PWR?"  Part="1" 

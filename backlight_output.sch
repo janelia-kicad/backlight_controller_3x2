@@ -20,7 +20,7 @@ Wire Wire Line
 Text Label 2650 2100 0    60   ~ 0
 CHANNEL
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5B8ABE70
 P 3600 2400
 AR Path="/589EF960/5B8ABE70" Ref="#PWR?"  Part="1" 
@@ -101,7 +101,7 @@ F 6 "LED 2MM 5V VERTICAL GREEN PC MNT" H 3900 2550 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:VAA #PWR?
+L user_power:VAA #PWR?
 U 1 1 5B97FB6E
 P 6700 1850
 AR Path="/5B84A38D/5B97FB6E" Ref="#PWR?"  Part="1" 
@@ -130,7 +130,7 @@ F 3 "" H 6700 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5B97FB75
 P 6800 2350
 AR Path="/5B84A38D/5B97FB75" Ref="#PWR?"  Part="1" 
@@ -199,7 +199,7 @@ $EndComp
 Wire Wire Line
 	5000 2100 4950 2100
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5BCB4F61
 P 5200 2350
 AR Path="/5B84A38D/5BCB4F61" Ref="#PWR?"  Part="1" 
@@ -238,7 +238,7 @@ Wire Wire Line
 Text Label 5200 1850 2    60   ~ 0
 NPN
 $Comp
-L components:M12-5-RCPT_F_SMD J3
+L user_components:M12-5-RCPT_F_SMD J3
 U 1 1 5BCC19F1
 P 7050 2100
 AR Path="/5B99EA03/5B9A0F98/5B9E5B95/5BCC19F1" Ref="J3"  Part="1" 

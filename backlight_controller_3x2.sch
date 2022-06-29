@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:VDD #PWR02
+L user_power:VDD #PWR02
 U 1 1 589B67C3
 P 1350 750
 F 0 "#PWR02" H 100 -400 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 100 -250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG02
+L user_power:PWR_FLAG #FLG02
 U 1 1 589B67D9
 P 1100 700
 F 0 "#FLG02" H -150 -225 50  0001 C CNN
@@ -43,7 +43,7 @@ Wire Wire Line
 	1350 750  1350 800 
 Connection ~ 1350 800 
 $Comp
-L power:GND #PWR01
+L user_power:GND #PWR01
 U 1 1 589B67FE
 P 700 950
 F 0 "#PWR01" H -500 -650 50  0001 C CNN
@@ -54,7 +54,7 @@ F 3 "" H -500 -400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG01
+L user_power:PWR_FLAG #FLG01
 U 1 1 589B6835
 P 700 750
 F 0 "#FLG01" H -550 -175 50  0001 C CNN
@@ -82,7 +82,7 @@ NoConn ~ 3900 1100
 NoConn ~ 3900 2200
 NoConn ~ 3900 2300
 $Comp
-L power:VEE #PWR03
+L user_power:VEE #PWR03
 U 1 1 589B69B5
 P 4450 800
 F 0 "#PWR03" H 200 -50 50  0001 C CNN
@@ -93,7 +93,7 @@ F 3 "" H 200 100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG03
+L user_power:PWR_FLAG #FLG03
 U 1 1 589B69CA
 P 4750 800
 F 0 "#FLG03" H 3500 -125 50  0001 C CNN

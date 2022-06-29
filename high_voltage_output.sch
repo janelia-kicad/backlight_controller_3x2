@@ -20,7 +20,7 @@ Wire Wire Line
 Text Label 2650 2100 0    60   ~ 0
 CHANNEL
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 589F1080
 P 3600 2400
 AR Path="/589EF960/589F1080" Ref="#PWR?"  Part="1" 
@@ -70,7 +70,7 @@ Text Label 4950 1950 0    60   ~ 0
 FAULT
 NoConn ~ 5000 2400
 $Comp
-L power:VDD #PWR?
+L user_power:VDD #PWR?
 U 1 1 589F1401
 P 5400 1900
 AR Path="/589EF960/589F1401" Ref="#PWR?"  Part="1" 
@@ -102,7 +102,7 @@ $EndComp
 Wire Wire Line
 	5400 1900 5400 1950
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 589F145A
 P 5400 2600
 AR Path="/589EF960/589F145A" Ref="#PWR?"  Part="1" 
@@ -134,7 +134,7 @@ $EndComp
 Wire Wire Line
 	5400 2550 5400 2600
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 589F1551
 P 5000 1550
 AR Path="/589EF960/589F1551" Ref="#PWR?"  Part="1" 
@@ -164,7 +164,7 @@ F 3 "" H 2000 -700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
+L user_power:VDD #PWR?
 U 1 1 589F1570
 P 5000 1050
 AR Path="/589EF960/589F1570" Ref="#PWR?"  Part="1" 
@@ -290,7 +290,7 @@ OUTPUT
 Wire Wire Line
 	6950 2400 7000 2400
 $Comp
-L power:PWR_FLAG #FLG?
+L user_power:PWR_FLAG #FLG?
 U 1 1 5B83EB5D
 P 6950 2250
 AR Path="/589EF960/5B83EB5D" Ref="#FLG?"  Part="1" 

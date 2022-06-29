@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5B9B87CB
 P 8050 3950
 AR Path="/5B9B87CB" Ref="#PWR?"  Part="1" 

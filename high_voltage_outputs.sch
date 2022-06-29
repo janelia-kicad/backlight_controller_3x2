@@ -70,7 +70,7 @@ Wire Wire Line
 Text Label 6050 4400 0    60   ~ 0
 OUTPUT_3
 $Comp
-L power:VAA #PWR?
+L user_power:VAA #PWR?
 U 1 1 5B99F394
 P 7750 3050
 AR Path="/5B99F394" Ref="#PWR?"  Part="1" 

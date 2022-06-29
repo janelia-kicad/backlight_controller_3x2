@@ -20,7 +20,7 @@ Wire Wire Line
 Text Label 2650 2100 0    60   ~ 0
 CHANNEL
 $Comp
-L power:GND #PWR?
+L user_power:GND #PWR?
 U 1 1 5B82A8CE
 P 3600 2400
 AR Path="/589EF960/5B82A8CE" Ref="#PWR?"  Part="1" 
